@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#nav{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  background-color: rgb(27, 80, 226);
+  border: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+
+#hero{
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 500px;
+}
+h1{
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+.search{
+  width: 90%;
+  display: flex;
+  gap: 20px;
+}
+
+input{
+  width: 80% ;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+}
+.submit{
+  opacity: 0.8;
+}
+#icons{
+  background-color: whitesmoke;
+}
+
+.icons{
+  display: flex;
+  gap: 80px;
+  padding: 150px 0;
+}
+.col{
+  text-align: center;
+}
+h3{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+p{
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 1.4;
+}
+
+i{
+  font-size: 45px;
+  color: rgb(27, 80, 226);
+}
+
+#main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.gray{
+  background-color: rgba(247, 247, 247, 0.733);
+  padding: 200px;
+}
+
+.imgBox1{
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imgBox2{
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imgBox3{
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#people{
+  background-color: whitesmoke;
+}
+.people{
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.persons{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.person{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.circle{
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#Start{
+  background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.start{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 500px;
+}
+
+#footer{
+  background-color: whitesmoke;
+
+}
+
+.footer{
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  list-style-type:none ;
+  gap: 20px;
+}
+a{
+  font-size: 20px;
+}
+.graytxt{
+  color: rgb(83, 83, 83);
+}
+
+.social{
+  display: flex;
+  gap: 20px;
+}
